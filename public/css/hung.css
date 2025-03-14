@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+nav {
+    background: #34495e;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #e74c3c;
+}
+
+/* Sections */
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 900px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+/* Timeline */
+.timeline {
+    position: relative;
+}
+
+.timeline-item {
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    position: relative;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    background: #e74c3c;
+    border-radius: 50%;
+}
+
+/* Skills */
+.skill {
+    margin-bottom: 1rem;
+}
+
+.skill-bar {
+    background: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.skill-level {
+    height: 100%;
+    background: #2ecc71;
+    transition: width 1s ease-in-out;
+}
+
+/* Projects */
+.project {
+    margin-bottom: 1.5rem;
+}
+
+/* Button */
+button {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #c0392b;
+}
+.profile-img {
+    display: block;
+    width: 150px; /* Điều chỉnh kích thước ảnh */
+    height: auto;
+    margin-left: 202px;
+
+    border-radius: 10px; /* Bo góc ảnh */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+.title{
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+   
+    margin-left: 77px;
+}
